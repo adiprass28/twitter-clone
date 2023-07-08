@@ -2,8 +2,8 @@ import { BsHouseFill, BsBellFill } from 'react-icons/bs'
 import { FaUser } from 'react-icons/fa'
 import { BiLogOut } from 'react-icons/bi'
 
-import SidebarLogo from './SidebarLogo.tsx'
-import SidebarItem from './SidebarItem.tsx'
+import SidebarLogo from './SidebarLogo'
+import SidebarItem from './SidebarItem'
 import SidebarTweetButton from './SidebarTweetButton'
 
 const Sidebar = () => {
