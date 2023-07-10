@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 
+import Modal from './components/Modal'
 import Sidebar from './components/layout/Sidebar'
 import FollowBar from './components/layout/FollowBar'
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+				<Modal isOpen />
         <div className="h-screen bg-black">
           <div className="container h-full mx-auto xl:px-30 max-w-6xl">
             <div className="grid grid-cols-4 h-full">
